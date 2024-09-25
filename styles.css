@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: navy;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: contents;
+}
+
+.scanner-container {
+  display:grid;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-content: center;
+}
+
+.form {
+  margin: 2px;
+}
+
+.inputs {
+  display:flex;
+  text-align: left;
+}
+
+input {
+  width: 92%;
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 16px;
+}
+
+.buttons{
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 16px;
+  background-color: #002366;
+  color: white;
+}
+
+.compareBtn{
+  display: block;
+  align-items: center;
+  font-size: 2em;
+}
+
+#compareBtn {
+  width: 800px;
+  height: 60px;
+}
+  
+.result {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 10em;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.stats {
+  margin-top: 20px;
+  display: flex;
+}
+
+.stats p {
+  font-size: 1.5em;
+  display: inline;
+  margin: 40px;
+}
+
+label {
+  font-family: arial black;
+  text-align: center;
+}
+
+span {
+  margin: auto;
+  border: 2px black;
+  padding: 2px;
+}
+
+#logTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 48%;
+}
+
+#logTable th, #logTable td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.input1 label{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.input2 label{
+  text-align: left;
+  margin-left: 20px;
+}
